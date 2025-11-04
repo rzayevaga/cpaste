@@ -24,7 +24,7 @@ const init = () => {
         initCode();
         initClipboard();
         initModals();
-        console.log('NoPaste initialized successfully by rzayeffdi');
+        console.log('CPaste initialized successfully by rzayeffdi');
     } catch (error) {
         console.error('Initialization error:', error);
     }
@@ -87,8 +87,8 @@ const initLangSelector = () => {
             
             // Update page title
             const pageTitle = e.text && e.text !== 'Plain Text' 
-                ? `NoPaste - ${e.text} kod parçası` 
-                : 'NoPaste - Kod paylaşma platforması';
+                ? `CPaste - ${e.text} kod parçası` 
+                : 'CPaste - Kod paylaşma platforması';
             document.title = pageTitle;
         },
     });
