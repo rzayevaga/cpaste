@@ -299,7 +299,7 @@ const buildUrl = (rawData, mode) => {
     const url = base + query + '#' + rawData;
     
     if (mode === 'markdown') {
-        return `[NoPaste kod parçası](${url})`;
+        return `[CPaste kod parçası](${url})`;
     }
     
     if (mode === 'iframe') {
